@@ -9,7 +9,7 @@ main ()
     printf ("Enter the number:\n");
     scanf ("%d",&i);
 
-    while (i>=1 || i<=-1)
+    while (i != 0)
     {
         i=i/10;
         c+=1;

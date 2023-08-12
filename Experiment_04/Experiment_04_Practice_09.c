@@ -9,9 +9,9 @@ main ()
     printf ("Enter the number:\n");
     scanf ("%d",&i);
 
-    for (a=1; a<=i; a++)
+    for (a = 1; a <= i; a++)
     {
-        if (i%a==0)
+        if (i % a == 0)
         {
             printf ("A factor is %d \n",a);
         }

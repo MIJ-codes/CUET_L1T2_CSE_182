@@ -8,7 +8,7 @@ main ()
 
     do
     {
-        printf ("Enter an");
+        printf ("Enter a number:");
         scanf ("%lf",&number);
         sum+=number;
     }

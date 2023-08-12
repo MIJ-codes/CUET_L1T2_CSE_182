@@ -2,16 +2,13 @@
 
 #include <stdio.h>
 
-main ()
+int main()
 {
-    int a,i;
+    int i;
 
-    printf ("Enter the initial number:\n");
-    scanf ("%d",&i);
-
-    for (a=i; a<5; a=a+1)
+    for (i = 1; i < 11; ++i)
     {
-        printf ("The numbers are %d \n",a);
+        printf("%d ", i);
     }
 
     return 0;

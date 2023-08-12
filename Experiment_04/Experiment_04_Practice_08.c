@@ -14,7 +14,7 @@ main ()
         n=(n*10)+a;
         i=i/10;
     }
-    printf ("The reverse number is %d",n);
+    printf ("Reverse number = %d",n);
 
     return 0;
 }
